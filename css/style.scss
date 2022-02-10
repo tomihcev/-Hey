@@ -1,2 +1,98 @@
 @import "fonts.css";
 @import "normalize.css";
+
+.d-flex {
+  display: flex;
+
+}
+
+.j-sb {
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1324px;
+  margin: auto;
+}
+
+header {
+  padding-top: 46px;
+  background-color: #E5E5E5;
+  padding-bottom: 120px;
+
+  .logo {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    &:active{
+      content: '';
+      color: #0555FF;
+    }
+
+  }
+
+  nav {
+
+    ul {
+      max-width: 512px;
+
+      li {
+        list-style: none;
+        margin: 0 35px;
+
+        a {
+          display: inline-block;
+          text-decoration: none;
+          font-family: Inter;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 19px;
+          color: #050038;
+          &:hover{
+            color: white;
+          }
+          &:active{
+            content: '';
+            color: #0555FF;
+          }
+        }
+      }
+
+    }
+  }
+
+  .sign {
+    a {
+      display: inline-block;
+      text-decoration: none;
+      padding: 14px 31px;
+      background-color: inherit;
+      color: black;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      border-radius: 30px;
+      transition: 0.3s;
+
+      &:hover {
+        color: white;
+        background-color: #0555FF;
+      }
+      &:active{
+        content: '';
+        color: #0555FF;
+      }
+    }
+
+  }
+
+}
+

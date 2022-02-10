@@ -1,4 +1,68 @@
 @import url(fonts.css);
 @import url(normalize.css);
+.d-flex {
+  display: flex; }
+
+.j-sb {
+  justify-content: space-between; }
+
+.container {
+  max-width: 1324px;
+  margin: auto; }
+
+header {
+  padding-top: 46px;
+  background-color: #E5E5E5;
+  padding-bottom: 120px; }
+  header .logo {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000; }
+    header .logo:active {
+      content: '';
+      color: #0555FF; }
+  header nav ul {
+    max-width: 512px; }
+    header nav ul li {
+      list-style: none;
+      margin: 0 35px; }
+      header nav ul li a {
+        display: inline-block;
+        text-decoration: none;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #050038; }
+        header nav ul li a:hover {
+          color: white; }
+        header nav ul li a:active {
+          content: '';
+          color: #0555FF; }
+  header .sign a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 31px;
+    background-color: inherit;
+    color: black;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 30px;
+    transition: 0.3s; }
+    header .sign a:hover {
+      color: white;
+      background-color: #0555FF; }
+    header .sign a:active {
+      content: '';
+      color: #0555FF; }
 
 /*# sourceMappingURL=style.css.map */
